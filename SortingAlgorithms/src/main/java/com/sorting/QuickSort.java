@@ -54,13 +54,7 @@ public class QuickSort implements Sort {
 
 	}
 
-	private <T> void swapElements(T[] arr, int lowPos, int highPos) {
-
-		T temporaryValue = arr[lowPos];
-		arr[lowPos] = arr[highPos];
-		arr[highPos] = temporaryValue;
-
-	}
+	
 
 	/* Example */
 	public static void main(String[] args) {
