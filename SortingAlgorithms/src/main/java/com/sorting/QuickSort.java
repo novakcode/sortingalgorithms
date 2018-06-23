@@ -5,18 +5,19 @@ import java.util.Arrays;
 /**
  * Implementation of QuickSort algorithm in Java. This version of QuickSort
  * picks first element as pivot.
- * 
- * How QuickSort works:<br/>
- * 1. Pick a pivot element <br/>
- * 2. Partition array into two sub arrays,so that first array is consisted of
- * elements that are less then pivot and second array consisted of elements that
- * are greater then pivot<br/>
- * 3. Using recursion do QuickSort on both sub arrays until they are sorted
- * 
- * 
  */
 
 public class QuickSort implements Sort {
+
+	/*
+	 * How QuickSort works:<br/> 1. Pick a pivot element
+	 * 2. Partition array into two sub arrays,so that first array is consisted of elements
+	 * that are less then pivot and second array consisted of elements that are
+	 * greater then pivot
+	 * 3.Using recursion do QuickSort on both sub arrays until they are sorted
+	 * 
+	 * 
+	 */
 
 	public <T extends Comparable<T>> void sort(T[] arr) {
 		quickSort(arr, 0, arr.length);
@@ -54,21 +55,19 @@ public class QuickSort implements Sort {
 
 	}
 
-	
-
 	/* Example */
 	public static void main(String[] args) {
-		Integer[] numberArr = new Integer[] { 2,5,6,1,1,2,5,66,1,0,55,5,22,1,6,7};
-		String[] stringArr = new String[] {"Novak","Nemanja","Joca","Ogi","Ana","Basta"};
-		
+		Integer[] numberArr = new Integer[] { 2, 5, 6, 1, 1, 2, 5, 66, 1, 0, 55, 5, 22, 1, 6, 7 };
+		String[] stringArr = new String[] { "Novak", "Nemanja", "Joca", "Ogi", "Ana", "Basta" };
+
 		QuickSort quickSort = new QuickSort();
-		
+
 		quickSort.sort(numberArr);
 		quickSort.sort(stringArr);
-		
+
 		System.out.println(Arrays.toString(numberArr));
 		System.out.println(Arrays.toString(stringArr));
-		
+
 	}
 
 }

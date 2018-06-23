@@ -7,10 +7,14 @@ import java.util.Arrays;
 /**
  * Implementation of BubbleSort algorithm in Java.This is not optimized version.
  * 
- * Bubble Sort compares two elements and swaps them if the first one is greater then second one.
  */
 public class BubbleSort implements Sort{
 
+	
+	/*
+	 * Bubble Sort compares two elements and swaps them if the first one is greater then second one.
+	 */
+	
 	public <T extends Comparable<T>> void sort(T[] arr) {
 		bubbleSort(arr);
 	}
