@@ -1,2 +1,12 @@
-<b>Sorting Algorithms Implemented in Java</b>
-
+###<h2>Sorting Algorithms Implemented in Java</h2>
+- [x] <b>Quick Sort</b>
+- [x] <b>Bubble Sort</b>
+- [x] <b>Selection Sort</b>
+- [x] <b>Insertion Sort</b>
+- [x] <b>Bucket Sort</b>
+- [ ] Merge Sort
+- [ ] Radix Sort
+- [ ] Heap Sort
+- [ ] Shell Sort
+- [ ] Counting Sort
+- [ ] Tree Sort
