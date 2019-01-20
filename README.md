@@ -7,6 +7,6 @@
 - [ ] Merge Sort
 - [ ] Radix Sort
 - [ ] Heap Sort
-- [x] Shell Sort
-- [x] Counting Sort
-- [x] Tree Sort
+- [x] <b>Shell Sort</b>
+- [x] <b>Counting Sort</b>
+- [x] <b>Tree Sort</b>
